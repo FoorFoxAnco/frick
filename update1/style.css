@@ -1,0 +1,19 @@
+/*.div {
+  display: none;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+}
+.showdiv:hover .div {
+  display: block;
+}
+*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
